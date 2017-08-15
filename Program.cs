@@ -10,7 +10,8 @@ namespace Math_Operations_Daily
         public static double Division(double x, double y) => x / y;
         public static double Remainder(double x, double y) => x % y;
 
-        public static void ShowResults(double operand1, double operand2, double sum, double difference, double multiplication, double division, double remainder)
+        public static void ShowResults(double operand1, double operand2, 
+        double sum, double difference, double multiplication, double division, double remainder)
         {
             Console.WriteLine($"The result of {operand1} plus {operand2} was: {sum}.");
             Console.WriteLine($"The result of {operand1} minus {operand2} was: {difference}.");
